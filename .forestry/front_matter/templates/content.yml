@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: isi
   description: isi konten
+pages:
+- content/lorem-ipsum-title.html
