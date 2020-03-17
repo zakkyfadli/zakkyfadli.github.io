@@ -1,4 +1,20 @@
 ---
 label: Content
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: title content
+- name: isi
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: isi
+  description: isi konten
